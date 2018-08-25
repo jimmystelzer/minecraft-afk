@@ -1,6 +1,12 @@
 # minecraft-afk
 This is a simple script to enable AFK in Minecraft 1.13 under Linux to circumvent the patch that disable Alt+Tab with pressed mouse key in the new version.
 
+# Dependence
+* xdotool
+* xwininfo
+* grep
+* awk
+
 # Installation
 Clone this repository ou just download minecraft-afk.sh. Ensure that the script has permission to run:
 
