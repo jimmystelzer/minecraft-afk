@@ -1,5 +1,31 @@
 # minecraft-afk
-This is a simple script to enable AFK in minecraft 1.13 under Linux
+This is a simple script to enable AFK in Minecraft 1.13 under Linux to circumvent the patch that disable Alt+Tab with pressed mouse key in the new version.
+
+# Dependence
+* xdotool
+* xwininfo
+* grep
+* awk
+
+# Installation
+Clone this repository ou just download minecraft-afk.sh. Ensure that the script has permission to run:
+
+```bash
+git clone "https://github.com/jimmystelzer/minecraft-afk.git"
+cd minecraft-afk
+chmod +x minecraft-afk.sh
+```
+If you like you can move this script to your prefered bin folder:
+
+```bash
+mv minecraft-afk.sh ~/bin/
+```
+
+Or:
+
+```bash
+sudo mv minecraft-afk.sh /usr/bin/
+```
 
 # Usage
 Disable pauseOnLostFocus in minecraft as usual:
@@ -12,6 +38,11 @@ Run the game as normal and when you like to go in AFK, just Alt+Tab and run the 
 
 ```bash
 ./minecraft-afk.sh
+```
+Or with the script is under your bin folder
+
+```bash
+minecraft-afk.sh
 ```
 
 # Openbox integration
